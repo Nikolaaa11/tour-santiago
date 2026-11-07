@@ -1,7 +1,7 @@
 # Megaprompt — Tour a pie por Santiago de Chile con mapa interactivo
 
 > Escrito el 7-11-2026. Se ejecuta tal cual en Claude Code (Windows, Git Bash/PowerShell,
-> `gh` logueado como Nikolaaa11, Vercel CLI logueado como nicolasrietta-1798).
+> con `gh` y la CLI de Vercel ya logueados).
 
 ## Rol
 
@@ -71,12 +71,12 @@ Reglas de datos:
 
 ## Entregables y publicación
 
-1. Carpeta `C:\Users\nicol\Documents\x\tour-santiago` con el sitio, `README.md` y este megaprompt.
+1. Carpeta `tour-santiago` con el sitio, `README.md` y este megaprompt.
 2. Probar en el navegador integrado: escritorio y celular (375 px), modo oscuro, consola sin
    errores, cambio funicular/teleférico, navegación por teclado.
-3. Git: commits con autor `Nikolaaa11 <163785668+Nikolaaa11@users.noreply.github.com>`
-   (si no, Vercel bloquea el deploy). Repo público `Nikolaaa11/tour-santiago` con `gh`.
-4. Vercel: proyecto en el scope `nicolasrietta-1798s-projects`, conectado al repo para que
+3. Git: commits con el correo *noreply* de GitHub del dueño del repo (si no, Vercel bloquea
+   el deploy). Repo público `tour-santiago` creado con `gh`.
+4. Vercel: proyecto en la cuenta personal, conectado al repo para que
    cada push a `main` despliegue; verificar con `curl` que la URL de producción responde 200
    y sirve la página nueva.
 
