@@ -1,0 +1,289 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-01T08:52:28Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 45305949,
+  "bounds": {
+    "minlat": -33.4294870,
+    "minlon": -70.6354942,
+    "maxlat": -33.4284026,
+    "maxlon": -70.6347755
+  },
+  "geometry": [
+    { "lat": -33.4294870, "lon": -70.6354942 },
+    { "lat": -33.4289106, "lon": -70.6351214 },
+    { "lat": -33.4284026, "lon": -70.6347755 }
+  ],
+  "tags": {
+    "description": "Monumento Histórico de Chile desde el 16/11/2000",
+    "fee": "yes",
+    "name": "Funicular de Santiago",
+    "network": "Parque Metropolitano de Santiago",
+    "opening_hours": "Mo-Su 10:00-18:45",
+    "operator": "Turistik",
+    "railway": "funicular",
+    "start_date": "1925-04-25",
+    "wikidata": "Q6437790",
+    "wikipedia": "es:Funicular de Santiago"
+  }
+},
+{
+  "type": "way",
+  "id": 90045540,
+  "bounds": {
+    "minlat": -33.4249098,
+    "minlon": -70.6323907,
+    "maxlat": -33.4145458,
+    "maxlon": -70.6155294
+  },
+  "geometry": [
+    { "lat": -33.4249098, "lon": -70.6323907 },
+    { "lat": -33.4240925, "lon": -70.6315302 },
+    { "lat": -33.4217826, "lon": -70.6290982 },
+    { "lat": -33.4206921, "lon": -70.6279502 },
+    { "lat": -33.4201729, "lon": -70.6274012 },
+    { "lat": -33.4194058, "lon": -70.6265899 },
+    { "lat": -33.4185218, "lon": -70.6256550 },
+    { "lat": -33.4171426, "lon": -70.6241965 },
+    { "lat": -33.4165269, "lon": -70.6235454 },
+    { "lat": -33.4164706, "lon": -70.6234859 },
+    { "lat": -33.4162681, "lon": -70.6232718 },
+    { "lat": -33.4160780, "lon": -70.6224132 },
+    { "lat": -33.4156079, "lon": -70.6202902 },
+    { "lat": -33.4152814, "lon": -70.6188158 },
+    { "lat": -33.4147095, "lon": -70.6162607 },
+    { "lat": -33.4145871, "lon": -70.6157138 },
+    { "lat": -33.4145458, "lon": -70.6155294 }
+  ],
+  "tags": {
+    "aerialway": "gondola",
+    "aerialway:bicycle": "no",
+    "aerialway:bubble": "yes",
+    "aerialway:capacity": "6000",
+    "aerialway:duration": "8",
+    "aerialway:heating": "no",
+    "aerialway:occupancy": "6",
+    "check_date": "2025-09-08",
+    "name": "Teleférico de Santiago",
+    "oneway": "no",
+    "operator": "Turistik",
+    "start_date": "1980",
+    "website": "https://telefericoonline.cl/",
+    "wikidata": "Q6140507",
+    "wikimedia_commons": "Category:Teleférico de Santiago",
+    "wikipedia": "es:Teleférico de Santiago"
+  }
+},
+{
+  "type": "way",
+  "id": 279028248,
+  "bounds": {
+    "minlat": -33.4276210,
+    "minlon": -70.6342446,
+    "maxlat": -33.4265415,
+    "maxlon": -70.6335106
+  },
+  "geometry": [
+    { "lat": -33.4276210, "lon": -70.6342446 },
+    { "lat": -33.4265415, "lon": -70.6335106 }
+  ],
+  "tags": {
+    "description": "Monumento Histórico de Chile desde el 16/11/2000",
+    "name": "Funicular de Santiago",
+    "operator": "Turistik",
+    "railway": "funicular",
+    "start_date": "1925-04-25",
+    "wikidata": "Q6437790",
+    "wikipedia": "es:Funicular de Santiago"
+  }
+},
+{
+  "type": "way",
+  "id": 786231391,
+  "bounds": {
+    "minlat": -33.4278785,
+    "minlon": -70.6344214,
+    "maxlat": -33.4276210,
+    "maxlon": -70.6342446
+  },
+  "geometry": [
+    { "lat": -33.4278785, "lon": -70.6344214 },
+    { "lat": -33.4276210, "lon": -70.6342446 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "description": "Monumento Histórico de Chile desde el 16/11/2000",
+    "layer": "1",
+    "name": "Funicular de Santiago",
+    "operator": "Turistik",
+    "railway": "funicular",
+    "start_date": "1925-04-25",
+    "wikidata": "Q6437790",
+    "wikipedia": "es:Funicular de Santiago"
+  }
+},
+{
+  "type": "way",
+  "id": 926855961,
+  "bounds": {
+    "minlat": -33.4300645,
+    "minlon": -70.6358689,
+    "maxlat": -33.4295401,
+    "maxlon": -70.6355276
+  },
+  "geometry": [
+    { "lat": -33.4300645, "lon": -70.6358689 },
+    { "lat": -33.4295401, "lon": -70.6355276 }
+  ],
+  "tags": {
+    "description": "Monumento Histórico de Chile desde el 16 de Noviembre de 2000",
+    "incline": "45%",
+    "length": "485",
+    "name": "Funicular de Santiago",
+    "operator": "Turistik",
+    "railway": "funicular",
+    "start_date": "1925-04-25",
+    "website": "https://funicularonline.cl/",
+    "wikidata": "Q6437790",
+    "wikipedia": "es:Funicular de Santiago"
+  }
+},
+{
+  "type": "way",
+  "id": 926855962,
+  "bounds": {
+    "minlat": -33.4295401,
+    "minlon": -70.6355276,
+    "maxlat": -33.4294870,
+    "maxlon": -70.6354942
+  },
+  "geometry": [
+    { "lat": -33.4295401, "lon": -70.6355276 },
+    { "lat": -33.4294870, "lon": -70.6354942 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "description": "Monumento Histórico de Chile desde el 16/11/2000",
+    "layer": "1",
+    "name": "Funicular de Santiago",
+    "operator": "Turistik",
+    "railway": "funicular",
+    "start_date": "1925-04-25",
+    "wikidata": "Q6437790",
+    "wikipedia": "es:Funicular de Santiago"
+  }
+},
+{
+  "type": "way",
+  "id": 1320118112,
+  "bounds": {
+    "minlat": -33.4284026,
+    "minlon": -70.6347755,
+    "maxlat": -33.4278785,
+    "maxlon": -70.6344214
+  },
+  "geometry": [
+    { "lat": -33.4278785, "lon": -70.6344214 },
+    { "lat": -33.4279534, "lon": -70.6344920 },
+    { "lat": -33.4280316, "lon": -70.6345573 },
+    { "lat": -33.4281127, "lon": -70.6346172 },
+    { "lat": -33.4282065, "lon": -70.6346773 },
+    { "lat": -33.4283032, "lon": -70.6347301 },
+    { "lat": -33.4284026, "lon": -70.6347755 }
+  ],
+  "tags": {
+    "description": "Monumento Histórico de Chile desde el 16/11/2000",
+    "fee": "yes",
+    "name": "Funicular de Santiago",
+    "network": "Parque Metropolitano de Santiago",
+    "opening_hours": "Mo-Su 10:00-18:45",
+    "operator": "Turistik",
+    "railway": "funicular",
+    "start_date": "1925-04-25",
+    "wikidata": "Q6437790",
+    "wikipedia": "es:Funicular de Santiago"
+  }
+},
+{
+  "type": "way",
+  "id": 1320118113,
+  "bounds": {
+    "minlat": -33.4284026,
+    "minlon": -70.6347755,
+    "maxlat": -33.4278785,
+    "maxlon": -70.6344214
+  },
+  "geometry": [
+    { "lat": -33.4284026, "lon": -70.6347755 },
+    { "lat": -33.4282715, "lon": -70.6346752 },
+    { "lat": -33.4281374, "lon": -70.6345810 },
+    { "lat": -33.4280091, "lon": -70.6344984 },
+    { "lat": -33.4278785, "lon": -70.6344214 }
+  ],
+  "tags": {
+    "description": "Monumento Histórico de Chile desde el 16/11/2000",
+    "fee": "yes",
+    "name": "Funicular de Santiago",
+    "network": "Parque Metropolitano de Santiago",
+    "opening_hours": "Mo-Su 10:00-18:45",
+    "operator": "Turistik",
+    "railway": "funicular",
+    "start_date": "1925-04-25",
+    "wikidata": "Q6437790",
+    "wikipedia": "es:Funicular de Santiago"
+  }
+},
+{
+  "type": "way",
+  "id": 1352261427,
+  "bounds": {
+    "minlat": -33.4304662,
+    "minlon": -70.6342259,
+    "maxlat": -33.4227047,
+    "maxlon": -70.6309633
+  },
+  "geometry": [
+    { "lat": -33.4227047, "lon": -70.6310776 },
+    { "lat": -33.4230267, "lon": -70.6310664 },
+    { "lat": -33.4246670, "lon": -70.6310296 },
+    { "lat": -33.4259802, "lon": -70.6309954 },
+    { "lat": -33.4268197, "lon": -70.6309682 },
+    { "lat": -33.4268628, "lon": -70.6309668 },
+    { "lat": -33.4269700, "lon": -70.6309633 },
+    { "lat": -33.4271431, "lon": -70.6311246 },
+    { "lat": -33.4281433, "lon": -70.6320570 },
+    { "lat": -33.4286861, "lon": -70.6325630 },
+    { "lat": -33.4289440, "lon": -70.6328034 },
+    { "lat": -33.4303723, "lon": -70.6341349 },
+    { "lat": -33.4304662, "lon": -70.6342259 }
+  ],
+  "tags": {
+    "aerialway": "gondola",
+    "aerialway:bicycle": "yes",
+    "aerialway:bubble": "yes",
+    "aerialway:capacity": "800",
+    "aerialway:duration": "7",
+    "aerialway:heating": "yes",
+    "aerialway:occupancy": "8",
+    "check_date": "2025-10-23",
+    "length": "967",
+    "maxspeed": "10",
+    "name": "Teleférico Pío Nono",
+    "oneway": "no",
+    "source": "https://www.mas.cl/Teleferico-Pio-Nono",
+    "start_date": "2025",
+    "wikidata": "Q117885229",
+    "wikimedia_commons": "Category:Teleférico Pío Nono",
+    "wikipedia": "es:Teleférico Pío Nono"
+  }
+}
+
+  ]
+}

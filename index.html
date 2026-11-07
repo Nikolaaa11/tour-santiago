@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Santiago a pie: de la Virgen al Santa Lucía</title>
+  <meta name="description" content="Tour a pie de un día por Santiago de Chile con mapa interactivo: sube al Cerro San Cristóbal en funicular o teleférico, almuerza en el Mercado Central y sigue a la Plaza de Armas, la Catedral Metropolitana y el Cerro Santa Lucía. Horarios y precios revisados.">
+  <meta name="theme-color" content="#f3ece0" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#14120f" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CL">
+  <meta property="og:title" content="Santiago a pie: de la Virgen al Santa Lucía">
+  <meta property="og:description" content="Mapa interactivo de un tour de un día por Santiago: San Cristóbal en funicular o teleférico, Mercado Central, Plaza de Armas, Catedral y Santa Lucía.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Young+Serif&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#paradas">Saltar a las paradas</a>
+
+  <div class="app">
+    <section class="mapwrap" aria-label="Mapa de la ruta">
+      <div id="map"></div>
+      <div class="map-fallback" id="map-fallback" hidden>
+        <p>No se pudo cargar el mapa en este navegador. La lista de paradas funciona igual, y cada una trae su enlace a Google Maps.</p>
+      </div>
+      <button class="map-btn overview" id="btn-overview" type="button">Ruta completa</button>
+      <nav class="stepper" aria-label="Avanzar por las paradas">
+        <button type="button" class="step-btn" id="btn-prev" aria-label="Parada anterior">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+        </button>
+        <p class="step-label" id="step-label" aria-live="polite">Ruta completa</p>
+        <button type="button" class="step-btn" id="btn-next" aria-label="Parada siguiente">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </nav>
+    </section>
+
+    <main class="panel" id="panel">
+      <header class="masthead">
+        <svg class="skyline" viewBox="0 0 400 70" aria-hidden="true" preserveAspectRatio="none">
+          <path class="sky-andes" d="M0 44 L28 30 L46 38 L70 18 L92 32 L118 12 L140 28 L166 16 L190 34 L214 20 L240 30 L262 10 L288 28 L312 18 L336 32 L360 22 L384 30 L400 26"/>
+          <path class="sky-cerro" d="M150 70 C190 40 214 26 236 24 C262 24 286 44 330 70 Z"/>
+          <path class="sky-lucia" d="M40 70 C52 58 60 52 70 52 C80 52 88 58 100 70 Z"/>
+          <path class="sky-virgen" d="M234 24 L234 13 M231 16 L237 16"/>
+        </svg>
+        <p class="kicker">Santiago de Chile · tour a pie de un día</p>
+        <h1>De la Virgen al Santa Lucía</h1>
+        <p class="intro">Siete paradas en un día: parte temprano en la cumbre del San Cristóbal, baja a almorzar mariscos al Mercado Central y termina en el cerro donde se fundó la ciudad. Toca una parada o usa las flechas para recorrerla en el mapa.</p>
+        <dl class="stats" id="stats"></dl>
+      </header>
+
+      <section class="today" id="today" aria-live="polite"></section>
+
+      <fieldset class="mode">
+        <legend>¿Cómo subes al San Cristóbal?</legend>
+        <div class="seg">
+          <label class="seg-opt">
+            <input type="radio" name="modo" value="funicular" checked>
+            <span><strong>Funicular</strong><small>El clásico, desde 1925</small></span>
+          </label>
+          <label class="seg-opt">
+            <input type="radio" name="modo" value="teleferico">
+            <span><strong>Teleférico</strong><small>Línea nueva, 2026</small></span>
+          </label>
+        </div>
+        <p class="mode-note">Los dos salen del final de la calle Pío Nono, en Bellavista, y se baja por la misma línea. El mapa y la parada 1 cambian según lo que elijas.</p>
+      </fieldset>
+
+      <ol class="stops" id="paradas" aria-label="Paradas del tour"></ol>
+
+      <section class="before">
+        <h2>Antes de salir</h2>
+        <ul>
+          <li><strong>Mejor de martes a viernes.</strong> La Catedral abre hasta las 18:00 y funcionan el funicular y los dos teleféricos.</li>
+          <li><strong>Evita el lunes.</strong> Los teleféricos no funcionan y el funicular cierra por lo menos el primer lunes del mes.</li>
+          <li><strong>Fin de semana:</strong> la Catedral cierra a las 14:30 el sábado y a las 13:00 el domingo. El domingo, visítala antes del almuerzo.</li>
+          <li><strong>Tickets del cerro</strong> en <a href="https://www.telefericosantiago.cl/" target="_blank" rel="noopener">telefericosantiago.cl</a>. Los combos juntan funicular y teleféricos en un solo ticket.</li>
+          <li><strong>Agua, gorro y bloqueador.</strong> En noviembre el sol de la tarde pega fuerte, sobre todo en la cumbre.</li>
+          <li><strong>Si llueve,</strong> el Cerro Santa Lucía cierra: termina el día en la Catedral.</li>
+        </ul>
+      </section>
+
+      <footer class="foot">
+        <p>Horarios y precios revisados el <span id="checked"></span> en las fuentes oficiales y la prensa citadas en cada parada. Cambian seguido: confírmalos antes de ir.</p>
+        <p>Mapa © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">colaboradores de OpenStreetMap</a>, teselas de <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a>, ruta a pie calculada con <a href="https://project-osrm.org" target="_blank" rel="noopener">OSRM</a>.</p>
+        <p><a href="https://github.com/Nikolaaa11/tour-santiago" target="_blank" rel="noopener">Código en GitHub</a></p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script src="data/routes.js"></script>
+  <script src="data/stops.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
