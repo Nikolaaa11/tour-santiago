@@ -86,3 +86,17 @@ Reglas de datos:
 - [ ] El selector funicular/teleférico cambia la ruta dibujada y el texto.
 - [ ] Funciona en 375 px y en escritorio, en claro y oscuro, sin errores de consola.
 - [ ] Repo en GitHub y sitio en Vercel respondiendo en producción.
+
+## Actualización pedida a mitad de la ejecución (7-11-2026)
+
+1. **Orden**: empezar en el San Cristóbal y seguir al Mercado Central (ver tabla de arriba).
+2. **Diseño**: estilo producto de Apple, fondo blanco, tipografía grande y apretada, mucho aire,
+   tarjetas redondeadas con sombras suaves, controles de vidrio esmerilado y un toque de color en
+   degradé. Muy animado y divertido, pensado para un día entre amigas de unos 34 años:
+   aparición al hacer scroll, mapa que sigue la lectura, marcadores que rebotan, cinta de
+   antojos en movimiento, control segmentado con resorte, "Listo ✓" por parada con confeti y
+   progreso, y la regla de siempre: respetar `prefers-reduced-motion`.
+3. **Dónde comer y brindar**: recomendaciones de locales reales y abiertos en 2026 en el
+   Mercado Central y en cada parada (qué pedir, precio aproximado, dirección, fuente), en la
+   tarjeta de cada parada, en el mapa y en una sección con filtros. Nada inventado: lo que no se
+   pudo confirmar se marca o se deja fuera.

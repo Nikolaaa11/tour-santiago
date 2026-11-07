@@ -19,7 +19,9 @@ Horarios y precios revisados el 7-11-2026; cada parada cita sus fuentes en la p�
 |---|---|
 | `index.html`, `styles.css`, `app.js` | El sitio (estático, sin build). |
 | `data/stops.js` | Paradas, textos, horarios (para el aviso «Abierto ahora»), precios y fuentes. |
+| `data/spots.js` | 20 locales para comer, brindar, antojos y cultura, verificados como abiertos en 2025–2026, con fuente. |
 | `data/routes.js` | Tramos a pie y líneas del funicular y teleférico (generado). |
+| `tools/geocode_spots.py` | Ubica los locales en OpenStreetMap (Nominatim) y avisa si quedan lejos de su parada. |
 | `tools/build_routes.py` | Regenera `data/routes.js`: ruteo peatonal OSRM sobre OpenStreetMap + geometría de las líneas desde `tools/overpass-lineas.json`. |
 | `MEGAPROMPT.md` | El encargo completo con el que se construyó la página. |
 
